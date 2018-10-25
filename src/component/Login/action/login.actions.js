@@ -1,6 +1,6 @@
 export const LOGIN_USER = 'user:loginUser';
 
-export function loginUser(user) {
+export default loginUser = (user) => {
     return {
         type: LOGIN_USER,
         payload: {
